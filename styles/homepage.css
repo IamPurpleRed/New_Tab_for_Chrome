@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0c2836;
+}
+
+.main {
+  height: 250px;
+  width: 500px;
+  margin: auto;
+  position: relative;
+  top: 150px;
+}
+
+.main .title {
+  height: 125px;
+  width: 360px;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Comic Sans MS', Arial;
+  font-size: 0;
+  text-shadow: 0px 3px #fff;
+}
+
+.main .title span {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.main .title #G,
+.main .title #g {
+  color: #00f;
+}
+
+.main .title #o1,
+.main .title #e {
+  color: #f00;
+}
+
+.main .title #o2 {
+  color: #fc0;
+}
+
+.main .title #l {
+  color: #0b0;
+}
+
+.main .search {
+  height: 40px;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  bottom: 0%;
+}
+
+.main .search #search_input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 500px;
+  height: 40px;
+  padding: 0 40px 0 15px;
+  border-radius: 40px;
+  position: absolute;
+  background-color: #fff;
+  font-size: 20px;
+  font-family: 'Noto Sans T Chinese';
+}
+
+.main .search #search_button {
+  border-radius: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  background-color: #fff;
+}
+
+.main .search #search_button:hover {
+  background-color: #aaa;
+}
+/*# sourceMappingURL=homepage.css.map */
